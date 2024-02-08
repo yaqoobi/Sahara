@@ -1,0 +1,263 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* min-height: 100vh; */
+    background-color: #ffffff;
+    margin: 0 0 0 0;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.main{
+    position: relative;
+    padding-bottom: 0px;
+}
+
+.big-header{
+    padding: 20px;
+    text-align: center;
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 0 0 0;
+}
+
+.banner h1{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.events-details{
+    display: flex;
+    width: 100%;
+    /* border: 1px solid #c91c1c; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+}
+
+.card-group {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 600px;
+    height: 250px;
+    background-color: #fbead0;
+}
+
+.card-details {
+    flex-grow: 1;
+    padding: 25px;
+}
+
+.card-header {
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-date {
+    margin-right: 10px;
+    font-size: 16px;
+    color: red;
+}
+
+.card-img {
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+    padding: 0;
+}
+
+.card-content {
+    margin-right: 10px;
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.card-button button {
+    padding: 10px 20px;
+    background-color: #8c6743;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card-button button:hover {
+    background-color: #ff8438;
+}
+
+.card-button button:first-child {
+    margin-right: 10px;
+}
+
+.card-button a {
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.details hr{
+    width: 100%;
+    border: 4px solid #0b0505;
+}
+
+.datetime{
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.details-img{
+    width: 600px;
+    height: 400px;
+}
+
+.customer-tes-details{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 20px 0 20px 225px;
+}
+
+.book-event{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 20px 0 20px 225px;
+}
+
+.contact-us{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: 0;
+    flex-direction: column;
+}
+.contact-us-details{
+    padding: 20px;
+}
+
+.contact-us {
+    /* background-color: #fff; */
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-us-details {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #333;
+}
+
+.contact-us-details p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.contact-us-details form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-details label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-us-details input,
+.contact-us-details textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-us-details button {
+    background-color: #8c6743;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-us-details button:hover {
+    background-color: #ff8438;
+}
+
+
+.about-us {
+    background-color: #fbead0;
+    background-color: rgba(251, 234, 208, 0.75);
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.about-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #8c6743;
+}
+
+.about-us-content p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.about-us-content a {
+    color: #ff8438;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.about-us-content a:hover {
+    color: #8c6743;
+}
+

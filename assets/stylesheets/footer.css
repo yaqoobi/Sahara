@@ -1,0 +1,28 @@
+footer{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+}
+.footer{
+    /* background-color: #8c6743; */
+    background-color: rgba(140, 103, 67, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    flex-direction: column;
+    padding: 40px 0;
+}
+.footer-contacts{
+    text-align: center;
+}
+.copyright{
+    /* background-color: #c3986f; */
+    background-color: rgba(195, 152, 111, .8);
+    color: #000000;
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+}

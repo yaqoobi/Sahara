@@ -1,0 +1,39 @@
+body{
+    /* min-height: 100vh; */
+    background-color: #ffffff;
+    margin: 0 0 0 0;
+    background-image: url("../images/cover.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.shopping-cart {
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgba(235,195,167,.85);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: calc(100vh - 190px);
+}
+
+.shopping-cart h2 {
+    color: #333;
+}
+
+.cart-items {
+    margin-top: 20px;
+}
+
+.cart-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
